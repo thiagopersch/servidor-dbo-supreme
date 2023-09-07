@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Crusader" nameDescription="an Crusader" race="blood" experience="5000" speed="200" manacost="0">
+	<health now="10000" max="10000"/>
+	<look type="812" head="1" body="1" legs="1" feet="1" addons="0" corpse="2947"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="Bomb" interval="1000" min="-100" max="-1000"/>
+		<attack name="energy" interval="3000" chance="10" length="8" spread="0" min="-300" max="-460">
+			<attribute key="areaEffect" value="purpleenergy"/>
+		</attack>
+		<attack name="energy" interval="3000" chance="7" range="3" radius="1" target="1" min="-210" max="-300">
+			<attribute key="shootEffect" value="energy"/>
+			<attribute key="areaEffect" value="energy"/>
+		</attack>
+	</attacks>
+	<defenses armor="0" defense="0">
+	</defenses>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="0"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="0"/>
+		<immunity outfit="1"/>
+		<immunity invisible="0"/>
+	</immunities>
+		<loot>
+			<item id="2148" countmax="100" chance="5000"/> <!-- Cents -->
+			<item id="2148" countmax="100" chance="5000"/> <!-- Cents -->
+			<item id="2152" countmax="100" chance="2500"/> <!-- Dollars -->
+			<item id="2152" countmax="100" chance="2500"/> <!-- Dollars -->
+			<item id="1987" chance="25000"> <!-- shinigami bag -->
+				<inside>
+					<item id="2160" countmax="2" chance="500"/> <!-- Golds -->
+					<item id="8932" chance="1000"/> <!-- Pistol -->
+					<item id="2423" chance="1000"/> <!-- clerical mace -->
+					<item id="2424" chance="1000"/> <!-- metralhadora -->
+					<item id="2422" chance="1000"/> <!-- Rifle -->
+					<item id="2434" chance="1000"/> <!-- Green Gun -->
+					<item id="2436" chance="1000"/> <!-- Energy Gun -->
+				</inside>
+			</item>
+		</loot>
+</monster>

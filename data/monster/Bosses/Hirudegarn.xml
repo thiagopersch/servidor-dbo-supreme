@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hirudegarn" nameDescription="an Hirudegarn" race="blood" experience="999999999999999999" speed="600" manacost="0">
+	<health now="99999999999999999999" max="99999999999999999999"/>
+	<look type="668" head="1" body="1" legs="1" feet="1" addons="0" corpse="5527"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="100" min="-1500" max="-4000"/>
+		<attack name="Meteor" interval="1000" min="-1000" max="-10000"/>
+		<attack name="Mugetsu" interval="2000" min="-100" max="-11000"/>
+		<attack name="Saigo no Getsuga Tenshou" interval="3000" min="-1000" max="-8000"/>
+		<attack name="Genki Dama" interval="4000" min="-1000" max="-7777"/>
+	</attacks>
+	<defenses armor="0" defense="0">
+	</defenses>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="0"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="0"/>
+		<immunity outfit="1"/>
+		<immunity invisible="0"/>
+	</immunities>
+		<loot>
+			<item id="2666" countmax="100" chance="100000"/> <!-- Meats -->
+			<item id="2666" countmax="100" chance="100000"/> <!-- Meats -->
+			<item id="2152" countmax="100" chance="100000"/> <!-- Dollars -->
+			<item id="2152" countmax="100" chance="100000"/> <!-- Dollars -->
+			<item id="2670" countmax="100" chance="100000"/> <!-- HP Potion -->
+			<item id="2670" countmax="100" chance="100000"/> <!-- HP Potion -->
+			<item id="2671" countmax="100" chance="100000"/> <!-- Ki Potion -->
+			<item id="2671" countmax="100" chance="100000"/> <!-- Ki Potion -->
+			<item id="2160" countmax="40" chance="25000"/> <!-- gold bars -->
+			<item id="2160" countmax="30" chance="25000"/> <!-- gold bars -->
+			<item id="2496" chance="15000"/> <!-- great saiyaman helmet -->
+			<item id="2323" chance="15000"/> <!-- golden bandana -->
+			<item id="2472" chance="15000"/> <!-- magma amor -->
+			<item id="2467" chance="15000"/> <!-- leather armor -->
+			<item id="2476" chance="15000"/> <!-- cefir armor -->
+			<item id="2485" chance="15000"/> <!-- mystic armor -->
+			<item id="2469" chance="15000"/> <!-- mystic legs -->
+			<item id="7895" chance="15000"/> <!-- goku ssj5 legs -->
+			<item id="3983" chance="15000"/> <!-- black blue legs -->
+			<item id="6132" chance="15000"/> <!-- mystic boots -->
+		</loot>
+</monster>

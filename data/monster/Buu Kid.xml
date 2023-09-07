@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Buu Kid" nameDescription="an Buu Kid" race="blood" experience="50000" speed="300" manacost="0">
+	<health now="100000" max="100000"/>
+	<look type="80" head="1" body="1" legs="1" feet="1" addons="0" corpse="2831"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1000" min="-1" max="-200"/>
+		<attack name="Jinruizetsu" interval="3000" min="-200" max="-800"/>
+		<attack name="Galactic Donut" interval="5000" min="-400" max="-800"/>
+		<attack name="Vanishing Rage" interval="6000" min="-600" max="-800"/>
+	</attacks>
+	<defenses armor="0" defense="0">
+	</defenses>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="0"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="0"/>
+		<immunity outfit="1"/>
+		<immunity invisible="0"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Aaaaarghh!"/>
+		<voice sentence="Vou te comer, Vou te comer, Vou te comer"/>
+		<voice sentence="Me deixou furioso!!!"/>
+		<voice sentence="Seu MALDITO!!!"/>
+		<voice sentence="Seu DESGRAÇADO!!!"/>
+	</voices>
+		<loot>
+			<item id="2148" countmax="100" chance="100000"/> <!-- Cents -->
+			<item id="2148" countmax="100" chance="100000"/> <!-- Cents -->
+			<item id="2152" countmax="35" chance="35000"/> <!-- Dollars -->
+			<item id="2152" countmax="35" chance="35000"/> <!-- Dollars -->
+			<item id="2670" countmax="5" chance="2500"/> <!-- HP Potion -->
+			<item id="2671" countmax="5" chance="2500"/> <!-- Ki Potion -->
+			<item id="9929" chance="500"/> <!-- saiyan boots -->
+			<item id="2643" chance="500"/> <!-- majin boots -->
+			<item id="2648" chance="500"/> <!-- majin legs -->
+		</loot>
+</monster>

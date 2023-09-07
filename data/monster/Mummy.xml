@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Mummy" nameDescription="a Mummy" race="undead" experience="3500" speed="250" manacost="0">
+	<health now="8000" max="8000"/>
+	<look type="775" head="1" body="1" legs="1" feet="1" addons="0" corpse="2889"/>
+	<targetchange interval="2000" chance="0"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="8"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1000" min="-200" max="-900"/>
+	</attacks>
+	<defenses armor="1" defense="4"/>
+	<elements>
+		<element earthPercent="10"/>
+		<element holyPercent="10"/>
+		<element icePercent="-5"/>
+		<elemetn deathPercent="-5"/>
+	</elements>
+	<loot>
+		<item id="2666" countmax="15" chance="10000"/><!-- meat -->
+		<item id="2151" countmax="5" chance="1000"/><!-- talon -->
+		<item id="2150" countmax="5" chance="1000"/><!-- small amethyst -->
+		<item id="2149" countmax="5" chance="1000"/><!-- small emerald -->
+	</loot>
+</monster>

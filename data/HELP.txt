@@ -1,0 +1,60 @@
+-- ITEMS TASK --
+-----------------------------------------------------------
+• Ice Barbarian Set
+    • Ice Barbarian Helmet      - id: 2128
+    • Ice Barbarian Armor       - id: 2464
+    • Ice Barbarian Legs        - id: 9928
+    • Ice Barbarian Boots       - id: 2195
+    • Ice Barbarian Necklace    - id: 2161
+    • Ice Barbarian Ring        - id: 2207
+    • Ice Barbarian Bow         - id: 2188
+-----------------------------------------------------------
+
+
+-- ITEMS QUEST --
+-----------------------------------------------------------
+• Supreme Infernal's Shenlong Set
+    • Supreme Infernal's Shenlong Helmet    - id: 13724
+    • Supreme Infernal's Shenlong Armor     - id: 13725
+    • Supreme Infernal's Shenlong Legs      - id: 13726
+    • Supreme Infernal's Shenlong Boots     - id: 13727
+    • Supreme Infernal's Shenlong Shield    - id: 13702
+    • Supreme Infernal's Shenlong Sword     - id: 13701
+    • Supreme Infernal's Shenlong Necklace  - id: 13722
+-----------------------------------------------------------
+• Supreme Set
+    • Supreme helmet            - id: 2342
+    • Supreme armor             - id: 2463
+    • Supreme legs              - id: 7885
+    • Supreme necklace          - id: 2661
+    • Eye Supreme               - id: 2208
+    • Supreme shield            - id: 2510
+    • Crossbow Supreme          - id: 2185
+    • Supreme bow               - id: 2189
+    • Supreme vortex            - id: 7958
+    • Supreme sword             - id: 8912
+    • Supreme club              - id: 8920
+    • Supreme demonic wand      - id: 8921
+-----------------------------------------------------------
+• Enchanted Zangetsu Set
+    • Enchanted Zangetsu Helmet - id: 13736
+    • Enchanted Zangetsu Armor  - id: 13719
+    • Enchanted Zangetsu Legs   - id: 13720
+    • Enchanted Zangetsu Boots  - id: 13721
+-----------------------------------------------------------
+• Fullbring Set
+    • Fullbring Helmet          - id: 13728
+    • Fullbring Armor           - id: 13729
+    • Fullbring Legs            - id: 13730
+    • Fullbring Boots           - id: 13731
+-----------------------------------------------------------
+• Angel Set
+    • Angel Helmet      - id: 13732
+    • Angel Armor       - id: 13733
+    • Angel Legs        - id: 13734
+    • Angel Boots       - id: 13735
+    • Angel Wand        - id: 13714
+    • Angel Bow         - id: 13715
+    • Angel Axe         - id: 13716
+    • Angel Hammer      - id: 13717
+-----------------------------------------------------------

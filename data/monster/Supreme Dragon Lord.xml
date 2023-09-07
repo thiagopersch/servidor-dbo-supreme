@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Supreme Dragon Lord" nameDescription="an Supreme Dragon Lord" race="blood" experience="135700" speed="300" manacost="0">
+	<health now="135700" max="135700"/>
+	<look type="731" head="1" body="1" legs="1" feet="1" addons="0" corpse="2947"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1000" min="-100" max="-1500"/>
+		<attack name="Dragon Wave" interval="3000" min="-100" max="-900"/>
+		<attack name="Barakuitsu Furie" interval="5000" min="-500" max="-2500"/>
+		<attack name="fire" interval="1000" chance="50" range="10" radius="4" target="1" min="-350" max="-999">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="firefield" interval="1000" chance="50" range="10" radius="4" target="1">
+			<attribute key="shootEffect" value="fire"/>
+		</attack>
+	</attacks>
+	<defenses armor="0" defense="0">
+	</defenses>
+	<summons maxSummons="2">
+		<summon name="Dragon Lord" interval="3000" chance="40" max="2"/>
+		<summon name="Dragon" interval="4000" chance="50" max="2"/>
+	</summons>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="0"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="0"/>
+		<immunity outfit="1"/>
+		<immunity invisible="0"/>
+	</immunities>
+		<loot>
+			<item id="2148" countmax="100" chance="100000"/> <!-- Cents -->
+			<item id="2148" countmax="100" chance="100000"/> <!-- Cents -->
+			<item id="2152" countmax="100" chance="25000"/> <!-- Dollars -->
+			<item id="2152" countmax="100" chance="25000"/> <!-- Dollars -->
+			<item id="2160" countmax="15" chance="500"/> <!-- Golds -->
+			<item id="2670" countmax="10" chance="2500"/> <!-- HP Potion -->
+			<item id="2671" countmax="10" chance="2500"/> <!-- Ki Potion -->
+			<item id="1987" chance="250000"> <!-- bag -->
+				<inside>
+					<item id="2458" chance="500"/> <!-- gilian mask -->
+					<item id="2460" chance="500"/> <!-- brass mask -->
+					<item id="2461" chance="500"/> <!-- grey hollow -->
+					<item id="2462" chance="500"/> <!-- giant hollow mask -->
+				</inside>
+			</item>
+		</loot>
+</monster>

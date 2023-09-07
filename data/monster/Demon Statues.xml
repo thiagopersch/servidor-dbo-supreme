@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Demon Statues" nameDescription="an Demon Statues" race="undead" experience="100" speed="0" manacost="0">
+	<health now="50000000" max="50000000"/>
+	<look type="996" head="1" body="1" legs="1" feet="1" addons="0" corpse="5527"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="lifedrain" interval="2000" chance="100" range="10" min="0" max="-2000"/>
+		<attack name="Super Renzoku Energy Dan" interval="4000" chance="100" range="10" min="0" max="-1500"/>
+	</attacks>
+	<defenses armor="0" defense="0">
+	</defenses>
+	<immunities>
+		<immunity physical="1"/>
+		<immunity energy="1"/>
+		<immunity fire="1"/>
+		<immunity poison="1"/>
+		<immunity ice="1"/>
+		<immunity holy="1"/>
+		<immunity death="1"/>
+		<immunity lifedrain="1"/>
+		<immunity manadrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity drunk="1"/>
+		<immunity outfit="1"/>
+		<immunity invisible="0"/>
+	</immunities>
+</monster>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Djin" nameDescription="an Djin" race="undead" experience="80000" speed="300" manacost="300">
+	<health now="150000" max="150000"/>
+	<look type="1158" head="1" body="1" legs="1" feet="1" addons="0" corpse="3040"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1000" skill="45" attack="40"/>
+		<attack name="fire" interval="2000" chance="50" range="7" min="-1" max="-750">
+			<attribute key="shootEffect" value="fire"/>
+		</attack>
+		<attack name="energycondition" interval="2000" chance="34" range="7" min="-50" max="-900">
+			<attribute key="shootEffect" value="energy"/>
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="25" range="7" min="-55" max="-980">
+			<attribute key="shootEffect" value="suddendeath"/>
+		</attack>
+		<attack name="drunk" interval="2000" chance="15" range="7">
+			<attribute key="shootEffect" value="energy"/>
+			<attribute key="areaEffect" value="energyarea"/>
+		</attack>
+		<attack name="outfit" interval="2000" chance="17" range="7" monster="rabbit" duration="20000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</attack>
+	</attacks>
+	<defenses armor="0" defense="0"/>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="0"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="0"/>
+		<immunity outfit="1"/>
+		<immunity invisible="0"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Simsalabim"/>
+		<voice sentence="Feel the power of my magic, tiny mortal!"/>
+		<voice sentence="Be careful what you wish for."/>
+		<voice sentence="Wishes can come true."/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="70" chance="40000"/><!-- gold coin -->
+		<item id="2148" countmax="50" chance="40000"/><!-- gold coin -->
+		<item id="2684" countmax="5" chance="9250"/><!-- carrot -->
+		<item id="7378" countmax="2" chance="3500"/><!-- royal spear -->
+		<item id="2146" countmax="5" chance="1000"/><!-- small sapphire -->
+		<item id="2063" chance="6500"/><!-- small oil lamp -->
+		<item id="1971" chance="1750"/><!-- book -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<inside>
+				<item id="5912" countmax="5" chance="2000"/><!-- blue piece of cloth -->
+				<item id="2671" chance="1000"/><!-- reiatsu potion -->
+				<item id="2745" chance="1000"/><!-- blue rose -->
+				<item id="2663" chance="350"/><!-- mystic turban -->
+			</inside>
+		</item>
+	</loot>
+</monster>

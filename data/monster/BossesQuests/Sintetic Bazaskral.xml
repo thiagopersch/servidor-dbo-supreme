@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Sintetic Bazaskral" nameDescription="an Sintetic Bazaskral" race="undead" experience="16000000" speed="300" manacost="0">
+	<health now="35000000" max="35000000"/>
+	<look type="974" head="1" body="1" legs="1" feet="1" addons="0" corpse="5527"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="80" attack="120"/>
+		<attack name="melee" interval="2000" min="-1000" max="-10000"/>
+		<attack name="manadrain" interval="2000" chance="40" range="7" min="-1000" max="-10000"/>
+		<attack name="lifedrain" interval="2000" chance="40" range="7" min="-1000" max="-10000"/>
+		<attack name="fire" interval="4000" chance="60" range="7" radius="7" target="1" min="-1000" max="-15000">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="firefield" interval="1000" chance="40" range="7" radius="1" target="1">
+			<attribute key="shootEffect" value="fire"/>
+		</attack>
+		<attack name="energy" interval="2000" chance="30" length="8" spread="0" min="-1000" max="-20000">
+			<attribute key="areaEffect" value="purpleenergy"/>
+		</attack>
+		<attack name="energy" interval="3000" chance="35" range="3" radius="1" target="1" min="-1000" max="-20000">
+			<attribute key="shootEffect" value="energy"/>
+			<attribute key="areaEffect" value="energy"/>
+		</attack>
+		<attack name="speed" interval="1000" chance="40" range="7" speedchange="-600" duration="10000">
+		</attack>
+	</attacks>
+	<defenses armor="0" defense="0">
+	</defenses>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="0"/>
+		<immunity poison="1"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="0"/>
+		<immunity outfit="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="30">
+		<voice sentence="YOU ARE DEAD!!"/>
+		<voice sentence="I will carry you to hell"/>
+		<voice sentence="HAHAHAHAHAHA"/>
+	</voices>
+		<loot>
+			<item id="2148" countmax="100" chance="10000"/> <!-- Cents -->
+			<item id="2152" countmax="50" chance="5000"/> <!-- Dollars -->
+			<item id="2160" countmax="15" chance="1500"/> <!-- Golds -->
+			<item id="2666" countmax="15" chance="3000"/> <!-- meat -->
+			<item id="2670" countmax="15" chance="1500"/> <!-- heath potion -->
+			<item id="2671" countmax="15" chance="1500"/> <!-- reiatsu potion -->
+			<item id="2143" countmax="15" chance="1500"/> <!-- white pearl -->
+			<item id="2144" countmax="15" chance="1500"/> <!-- black pearl -->
+			<item id="2145" countmax="15" chance="1500"/> <!-- small diamond -->
+			<item id="2146" countmax="15" chance="1500"/> <!-- small sapphire -->
+			<item id="2147" countmax="15" chance="1500"/> <!-- small ruby -->
+			<item id="2149" countmax="15" chance="1500"/> <!-- small emerald -->
+			<item id="2150" countmax="15" chance="1500"/> <!-- small amethyst -->
+			<item id="2151" countmax="15" chance="1500"/> <!-- talon -->
+			<item id="2157" countmax="15" chance="1500"/> <!-- gold nugget -->
+			<item id="2153" chance="1500"/> <!-- violent gem -->
+			<item id="2154" chance="1500"/> <!-- yellow gem -->
+			<item id="2155" chance="1500"/> <!-- green gem -->
+			<item id="2156" chance="1500"/> <!-- red gem -->
+			<item id="2158" chance="1500"/> <!-- blue gem -->
+			<item id="5876" countmax="15" chance="1500"/> <!-- lizard leather -->
+			<item id="5877" countmax="15" chance="1500"/> <!-- green dragon leather -->
+			<item id="5878" countmax="15" chance="1500"/> <!-- minotaur leather -->
+			<item id="5881" countmax="15" chance="1500"/> <!-- lizard scale -->
+			<item id="5882" countmax="15" chance="1500"/> <!-- red dragon scale -->
+			<item id="5880" countmax="15" chance="1500"/> <!-- iron ore -->
+			<item id="5927" chance="50000"><!-- pox backpack -->
+				<inside>
+					<item id="2459" chance="800"/><!-- neliel mask -->
+					<item id="2471" chance="800"/><!-- ulquiorra mask -->
+					<item id="2473" chance="800"/><!-- shinigami mask -->
+					<item id="2481" chance="800"/><!-- samurai helmet -->
+					<item id="2482" chance="800"/><!-- soldier helmet -->
+					<item id="2490" chance="800"/><!-- paikuhan helmet -->
+					<item id="2491" chance="800"/><!-- piccolo helmet -->
+					<item id="2493" chance="800"/><!-- brolly necklace -->
+					<item id="2496" chance="800"/><!-- great saiyaman helmet -->
+					<item id="2466" chance="800"/><!-- zangetsu armor -->
+					<item id="2467" chance="800"/><!-- leather armor -->
+					<item id="2472" chance="800"/><!-- magma armor -->
+					<item id="2476" chance="800"/><!-- cefir armor -->
+					<item id="2483" chance="800"/><!-- majin armor  -->
+					<item id="2486" chance="800"/><!-- kid goku armor -->
+					<item id="2505" chance="800"/><!-- elven armor -->
+					<item id="2508" chance="800"/><!-- gohan coat -->
+					<item id="2660" chance="800"/><!-- goku armor  -->
+					<item id="2465" chance="800"/><!-- pluff armor  -->
+					<item id="2477" chance="800"/><!-- human legs  -->
+					<item id="2468" chance="800"/><!-- pluff legs  -->
+					<item id="2470" chance="800"/><!-- majin legs  -->
+					<item id="2504" chance="800"/><!-- c17 legs  -->
+					<item id="2649" chance="800"/><!-- goku legs  -->
+					<item id="9812" chance="800"/><!-- human boots -->
+					<item id="9929" chance="800"/><!-- saiyan boots -->
+					<item id="2358" chance="800"/><!-- silver boots -->
+					<item id="6530" chance="800"/><!-- boots of haste -->
+				</inside>
+			</item>
+			<item id="2004" chance="50000"><!-- digial backpack -->
+				<inside>
+					<item id="2512" chance="800"/><!-- wooden shield -->
+					<item id="2513" chance="800"/><!-- battle shield -->
+					<item id="2514" chance="800"/><!-- mastermind shield -->
+					<item id="2515" chance="800"/><!-- pox shield -->
+					<item id="2376" chance="800"/><!-- getsuga sword -->
+					<item id="2379" chance="800"/><!-- zangetsu sword -->
+					<item id="2383" chance="800"/><!-- getsuga tenshou -->
+					<item id="2390" chance="800"/><!-- bamboo sword -->
+					<item id="2392" chance="800"/><!-- dagger -->
+					<item id="2393" chance="800"/><!-- giant sword -->
+					<item id="2395" chance="800"/><!-- carlin sword -->
+					<item id="2381" chance="800"/><!-- zabimaru -->
+					<item id="7383" chance="800"/><!-- shinigami glove -->
+					<item id="7384" chance="800"/><!-- human glove -->
+					<item id="8209" chance="800"/><!-- simpson glove -->
+					<item id="7386" chance="800"/><!-- demonic glove -->
+					<item id="7390" chance="800"/><!-- silver glove -->
+					<item id="7391" chance="800"/><!-- army glove -->
+					<item id="7408" chance="800"/><!-- metal red glove -->
+					<item id="7449" chance="800"/><!-- wolf glove -->
+					<item id="2434" chance="800"/><!-- green gun -->
+					<item id="2436" chance="800"/><!-- energy gun -->
+					<item id="2444" chance="800"/><!-- red ki -->
+					<item id="2445" chance="800"/><!-- energy ki -->
+				</inside>
+			</item>
+		</loot>
+</monster>

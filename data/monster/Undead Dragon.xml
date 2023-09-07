@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Undead Dragon" nameDescription="an Undead Dragon" race="undead" experience="120000" speed="250" manacost="0">
+	<health now="120000" max="120000"/>
+	<look type="781" head="1" body="1" legs="1" feet="1" addons="0" corpse="2899"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1000" min="-300" max="-800"/>
+		<attack name="meteor" interval="5000" min="-500" max="-2000"/>
+		<attack name="lifedrain" interval="1000" chance="40" range="1" min="-300" max="-900"/>
+		<attack name="speed" interval="2000" chance="50" range="7" speedchange="-600" duration="5000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
+	</attacks>
+	<defenses armor="0" defense="0">
+	</defenses>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="0"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="0"/>
+		<immunity outfit="1"/>
+		<immunity invisible="0"/>
+	</immunities>
+		<loot>
+			<item id="2148" countmax="100" chance="100000"/> <!-- Cents -->
+			<item id="2152" countmax="15" chance="25000"/> <!-- Dollars -->
+			<item id="2160" countmax="15" chance="500"/> <!-- Gold Bars -->
+			<item id="2670" countmax="10" chance="2500"/> <!-- HP Potion -->
+			<item id="2671" countmax="10" chance="2500"/> <!-- Ki Potion -->
+		</loot>
+</monster>

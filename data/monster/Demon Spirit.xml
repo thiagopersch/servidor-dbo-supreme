@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Demon Spirit" nameDescription="an Demon Spirit" race="undead" experience="15000" speed="300" manacost="0">
+	<health now="30000" max="30000"/>
+	<look type="794" head="1" body="1" legs="1" feet="1" addons="0" corpse="1492"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1000" min="-100" max="-1000"/>
+		<attack name="fire" interval="2000" chance="30" range="7" radius="2" target="1" min="-55" max="-155">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="firefield" interval="2000" chance="35" range="7" radius="1" target="1">
+			<attribute key="shootEffect" value="fire"/>
+		</attack>
+	</attacks>
+	<defenses armor="0" defense="0">
+	</defenses>
+	<immunities>
+		<immunity physical="1"/>
+		<immunity energy="0"/>
+		<immunity fire="1"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="0"/>
+		<immunity outfit="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+</monster>

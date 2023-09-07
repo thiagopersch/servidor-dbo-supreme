@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Butterfly Red" nameDescription="a Butterfly Red" race="blood" experience="1000" speed="200" manacost="0">
+	<health now="1500" max="1500"/>
+	<look type="962" head="1" body="1" legs="1" feet="1" addons="0" corpse="2947"/>
+	<targetchange interval="2000" chance="0"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="0"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="8"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="100" min="-1" max="-50"/>
+	</attacks>
+	<defenses armor="1" defense="2"/>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="0"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="0"/>
+		<immunity outfit="0"/>
+		<immunity drunk="0"/>
+		<immunity invisible="0"/>
+	</immunities>
+</monster>

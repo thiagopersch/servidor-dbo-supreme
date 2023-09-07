@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monsters>
+    <!-- A -->
+    <monster name="Ancient Dinosaur" file="Ancient Dinosaur.xml"/>
+    <monster name="Ancient Triceratops" file="Ancient Triceratops.xml"/>
+    <monster name="Ancient Dinosaur Hollow" file="Ancient Dinosaur Hollow.xml"/>
+    <monster name="Android" file="Android.xml"/>
+    <monster name="Assassin" file="Assassin.xml"/>
+    <monster name="Atlantid" file="Atlantid.xml"/>
+    <monster name="Android Warrior" file="Android Warrior.xml"/>
+    <monster name="Android Fly" file="Android Fly.xml"/>
+    <monster name="Ancestral Guardian" file="Ancestral Guardian.xml"/>
+    <monster name="Ancient Orc" file="Ancient Orc.xml"/>
+    <monster name="Aegzen" file="Aegzen.xml"/>
+
+    <!-- B -->
+    <monster name="Bandit Gun" file="Bandit Gun.xml"/>
+    <monster name="Bandit Hollow" file="Bandit Hollow.xml"/>
+    <monster name="Bandit Human" file="Bandit Human.xml"/>
+    <monster name="Bandit Scout" file="Bandit Scout.xml"/>
+    <monster name="Bandit Swordman" file="Bandit Swordman.xml"/>
+    <monster name="Bandit" file="Bandit.xml"/>
+    <monster name="Black Dragon" file="Black Dragon.xml"/>
+    <monster name="Bardock" file="Bardock.xml"/>
+    <monster name="Bardock SSJ" file="Bardock SSJ.xml"/>
+    <monster name="Bardock SSJ2" file="Bardock SSJ2.xml"/>
+    <monster name="Bardock SSJ3" file="Bardock SSJ3.xml"/>
+    <monster name="Bardock SSJ4" file="Bardock SSJ4.xml"/>
+    <monster name="Bardock SSJ5" file="Bardock SSJ5.xml"/>
+    <monster name="Brolly Oozaru" file="Brolly Oozaru.xml"/>
+    <monster name="Brolly SSJ" file="Brolly SSJ.xml"/>
+    <monster name="Brolly SSJ2" file="Brolly SSJ2.xml"/>
+    <monster name="Brolly SSJ4" file="Brolly SSJ4.xml"/>
+    <monster name="Brolly SSJ5" file="Brolly SSJ5.xml"/>
+    <monster name="Bulma Robot" file="Bulma Robot.xml"/>
+    <monster name="Buu Fat" file="Buu Fat.xml"/>
+    <monster name="Buu Kid" file="Buu Kid.xml"/>
+    <monster name="Bugashnar" file="Bugashnar.xml"/>
+    <monster name="Bat" file="Bat.xml"/>
+    <monster name="Butterfly Purple" file="Butterfly Purple.xml"/>
+    <monster name="Butterfly Red" file="Butterfly Red.xml"/>
+    <monster name="Butterfly Yellow" file="Butterfly Yellow.xml"/>
+    <monster name="Bazaskral" file="BossesQuests/Bazaskral.xml"/>
+    <monster name="Banshee" file="Banshee.xml"/>
+    <monster name="Boar" file="Boar.xml"/>
+    <monster name="Bojack" file="Bojack.xml"/>
+    <monster name="Boogy" file="Boogy.xml"/>
+
+    <!-- C -->
+    <monster name="C16" file="C16.xml"/>
+    <monster name="C17" file="C17.xml"/>
+    <monster name="C18" file="C18.xml"/>
+    <monster name="C19 And C20" file="C19 And C20.xml"/>
+    <monster name="C19" file="C19.xml"/>
+    <monster name="C20" file="C20.xml"/>
+    <monster name="Cell Jr" file="Cell Jr.xml"/>
+    <monster name="Cell" file="Cell.xml"/>
+    <monster name="Chicken" file="Chicken.xml"/>
+    <monster name="Crocodile" file="Crocodile.xml"/>
+    <monster name="Crusader" file="Crusader.xml"/>
+    <monster name="Chakoya Toolshaper" file="Chakoya Toolshaper.xml"/>
+    <monster name="Chakoya Tribewarden" file="Chakoya Tribewarden.xml"/>
+    <monster name="Chakoya Windcaller" file="Chakoya Windcaller.xml"/>
+
+    <!-- D -->
+    <monster name="Demon" file="Demon.xml"/>
+    <monster name="Demon Spirit" file="Demon Spirit.xml"/>
+    <monster name="Demon Statues" file="Demon Statues.xml"/>
+    <monster name="Demonic Soldier" file="Demonic Soldier.xml"/>
+    <monster name="Demonic" file="Demonic.xml"/>
+    <monster name="Destroyer" file="Destroyer.xml"/>
+    <monster name="Dino" file="Dino.xml"/>
+    <monster name="Dino Hollow" file="Dino Hollow.xml"/>
+    <monster name="Dinosaur" file="Dinosaur.xml"/>
+    <monster name="Dragon Lord" file="Dragon Lord.xml"/>
+    <monster name="Dragon Lord Thawing" file="Dragon Lord Thawing.xml"/>
+    <monster name="Dragon Frost" file="Dragon Frost.xml"/>
+    <monster name="Dragon" file="Dragon.xml"/>
+    <monster name="Draptor" file="Draptor.xml"/>
+    <monster name="Draptor Emerald" file="Draptor Emerald.xml"/>
+    <monster name="Djin" file="Djin.xml"/>
+    <monster name="Dodoria" file="Dodoria.xml"/>
+    <monster name="Dr. Gero" file="Dr. Gero.xml"/>
+    <monster name="Dabura" file="Dabura.xml"/>
+
+    <!-- F -->
+    <monster name="Fishbone D" file="Fishbone D.xml"/>
+    <monster name="Fire Elemental" file="Fire Elemental.xml"/>
+    <monster name="Frost Giant" file="Frost Giant.xml"/>
+    <monster name="Frost Dragon Hatchling" file="Frost Dragon Hatchling.xml"/>
+    <monster name="Ferumbras" file="BossesQuests/Ferumbras.xml"/>
+    <monster name="Fighter" file="Fighter.xml"/>
+    <monster name="Flamingo" file="Flamingo.xml"/>
+    <monster name="Fanshand Book" file="BossesQuests/Fanshand Book.xml"/>
+
+    <!-- H -->
+    <monster name="Hueco Demon" file="Hueco Demon.xml"/>
+
+    <!-- I -->
+    <monster name="Ice Elemental" file="Ice Elemental.xml"/>
+    <monster name="Ice Golem" file="Ice Golem.xml"/>
+    <monster name="Iron Minotaur" file="BossesQuests/Iron Minotaur.xml"/>
+
+    <!-- J -->
+    <monster name="Janemba Fat" file="Janemba Fat.xml"/>
+    <monster name="Janemba" file="Janemba.xml"/>
+    <monster name="Janemba Kid" file="Janemba Kid.xml"/>
+
+    <!-- G -->
+    <monster name="Ghost" file="Ghost.xml"/>
+    <monster name="Giant Hollow" file="Giant Hollow.xml"/>
+    <monster name="Gillian" file="Gillian.xml"/>
+    <monster name="Grey Hollow" file="Grey Hollow.xml"/>
+    <monster name="Goku SSJ" file="Goku SSJ.xml"/>
+    <monster name="Goku SSJ2" file="Goku SSJ2.xml"/>
+    <monster name="Goku SSJ3" file="Goku SSJ3.xml"/>
+    <monster name="Goku SSJ4" file="Goku SSJ4.xml"/>
+    <monster name="Goku Golden SSJ" file="Goku Golden SSJ.xml"/>
+    <monster name="Golden Oozaru" file="Golden Oozaru.xml"/>
+    <monster name="Goxir" file="Goxir.xml"/>
+
+    <!-- H -->
+    <monster name="Hirudegarn" file="Bosses/Hirudegarn.xml"/>
+    <monster name="Hollow" file="Hollow.xml"/>
+    <monster name="Human" file="Human.xml"/>
+    <monster name="Humanoid" file="Humanoid.xml"/>
+
+    <!-- K -->
+    <monster name="King Vegeta" file="King Vegeta.xml"/>
+    <monster name="Kalyassa" file="Kalyassa.xml"/>
+    <monster name="Kroidtigiu" file="BossesQuests/Kroidtigiu.xml"/>
+    <monster name="Krasnigua" file="Krasnigua.xml"/>
+    <monster name="King Warlock" file="King Warlock.xml"/>
+    <monster name="Kraescaror" file="Kraescaror.xml"/>
+    <monster name="Kahan" file="BossesQuests/Kahan.xml"/>
+
+    <!-- L -->
+    <monster name="Luftis" file="Luftis.xml"/>
+    <monster name="Laralucu" file="BossesQuests/Laralucu.xml"/>
+    <monster name="Lavahound" file="Lavahound.xml"/>
+    <monster name="Lizard Snakecharmer" file="Lizard Snakecharmer.xml"/>
+    <monster name="Lipsfirewalk" file="Lipsfirewalk.xml"/>
+    <monster name="Lesdra" file="BossesQuests/Lesdra.xml"/>
+    <monster name="Lesstisk" file="BossesQuests/Lesstisk.xml"/>
+
+    <!-- M -->
+    <monster name="Mummy" file="Mummy.xml"/>
+    <monster name="Massive Mutant" file="Massive Mutant.xml"/>
+    <monster name="Mutant Tree-Man" file="Mutant Tree-Man.xml"/>
+    <monster name="Morcele" file="Morcele.xml"/>
+
+    <!-- N -->
+    <monster name="Norgle Glacierbeard" file="Norgle Glacierbeard.xml"/>
+    <monster name="Norros" file="BossesQuests/Norros.xml"/>
+
+    <!-- O -->
+    <monster name="Oozaru" file="Oozaru.xml"/>
+
+    <!-- P -->
+    <monster name="Pig" file="Pig.xml"/>
+    <monster name="Poison Fly" file="Poison Fly.xml"/>
+    <monster name="Perfect Cell" file="Perfect Cell.xml"/>
+    <monster name="Paikuhan" file="Paikuhan.xml"/>
+
+    <!-- Q -->
+    <monster name="Quenduil" file="BossesQuests/Quenduil.xml"/>
+
+    <!-- R -->
+    <monster name="Raditz" file="Raditz.xml"/>
+    <monster name="Rat" file="Rat.xml"/>
+    <monster name="Robotron" file="Robotron.xml"/>
+
+    <!-- S -->
+    <monster name="Snake" file="Snake.xml"/>
+    <monster name="Smile Hollow" file="Smile Hollow.xml"/>
+    <monster name="Snacke Hollow" file="Snacke Hollow.xml"/>
+    <monster name="Spider Hollow" file="Spider Hollow.xml"/>
+    <monster name="Super Cell" file="Super Cell.xml"/>
+    <monster name="Soldier Majin" file="Soldier Majin.xml"/>
+    <monster name="Supreme Dragon Lord" file="Supreme Dragon Lord.xml"/>
+    <monster name="Scorpion" file="Scorpion.xml"/>
+    <monster name="Sintetic Bazaskral" file="BossesQuests/Sintetic Bazaskral.xml"/>
+    <monster name="Skeleton Samurai" file="Skeleton Samurai.xml"/>
+    <monster name="Spirit" file="Spirit.xml"/>
+    <monster name="Spirit SSJ3" file="Spirit SSJ3.xml"/>
+    <monster name="Saibamen" file="Saibamen.xml"/>
+    <monster name="Saibamen White" file="Saibamen White.xml"/>
+    <monster name="Space Soldier" file="Space Soldier.xml"/>
+    <monster name="Spacial Force Ginyo" file="Spacial Force Ginyo.xml"/>
+    <monster name="Spopovitch" file="Spopovitch.xml"/>
+
+    <!-- T -->
+    <monster name="Terminator" file="Terminator.xml"/>
+    <monster name="Trainer" file="Trainer.xml"/>
+    <monster name="Triceratops" file="Triceratops.xml"/>
+    <monster name="Turles" file="Turles.xml"/>
+    <monster name="Turles SSJ" file="Turles SSJ.xml"/>
+    <monster name="Turles SSJ2" file="Turles SSJ2.xml"/>
+    <monster name="Turles SSJ3" file="Turles SSJ3.xml"/>
+    <monster name="Turles SSJ4" file="Turles SSJ4.xml"/>
+    <monster name="Turles SSJ5" file="Turles SSJ5.xml"/>
+    <monster name="Turles Golden SSJ" file="Turles Golden SSJ.xml"/>
+    <monster name="Tank" file="Tank.xml"/>
+
+    <!-- U -->
+    <monster name="Ultimate Cell" file="Ultimate Cell.xml"/>
+    <monster name="Ultimate Cooler" file="Ultimate Cooler.xml"/>
+    <monster name="Ultimate Kagome" file="Ultimate Kagome.xml"/>
+    <monster name="Ultimate Turles" file="Ultimate Turles.xml"/>
+    <monster name="Ultimate Brolly" file="Ultimate Brolly.xml"/>
+    <monster name="Undead Dragon" file="Undead Dragon.xml"/>
+
+    <!-- V -->
+    <monster name="Vegeta Prince" file="Vegeta Prince.xml"/>
+    <monster name="Vegeta Oozaru" file="Vegeta Oozaru.xml"/>
+    <monster name="Vegeta SSJ" file="Vegeta SSJ.xml"/>
+    <monster name="Vegeta SSJ2" file="Vegeta SSJ2.xml"/>
+    <monster name="Vegeta Majin" file="Vegeta Majin.xml"/>
+    <monster name="Valak" file="BossesQuests/Valak.xml"/>
+    <monster name="Vast Lord Lv. 1" file="Vast Lord Lv. 1.xml"/>
+    <monster name="Vast Lord Lv. 2" file="Vast Lord Lv. 2.xml"/>
+    <monster name="Vampire" file="Vampire.xml"/>
+    <monster name="Vashjfin" file="Vashjfin.xml"/>
+
+    <!-- W -->
+    <monster name="Wind Elemental" file="Wind Elemental.xml"/>
+    <monster name="Wolf Hollow" file="Wolf Hollow.xml"/>
+    <monster name="Wolf" file="Wolf.xml"/>
+    <monster name="Wolf Beast" file="Wolf Beast.xml"/>
+    <monster name="Wolf Fire" file="Wolf Fire.xml"/>
+    <monster name="Wolf Ice" file="Wolf Ice.xml"/>
+
+    <!-- Y -->
+    <monster name="Yadgeus" file="Yadgeus.xml"/>
+    <monster name="Yakon" file="Yakon.xml"/>
+
+    <!-- Z -->
+    <monster name="Zarbon" file="Zarbon.xml"/>
+    <monster name="Zangetsu" file="Zangetsu.xml"/>
+    <monster name="Zivon" file="Zivon.xml"/>
+    <monster name="Zorvorax" file="Zorvorax.xml"/>
+    <monster name="Zavidor" file="Zavidor.xml"/>
+    <monster name="Zurgreon" file="Zurgreon.xml"/>
+
+</monsters>

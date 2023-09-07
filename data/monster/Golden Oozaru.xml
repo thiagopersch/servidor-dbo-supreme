@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Golden Oozaru" nameDescription="an Golden Oozaru" race="blood" experience="400000" speed="200" manacost="0">
+	<health now="400000" max="400000"/>
+	<look type="807" head="1" body="1" legs="1" feet="1" addons="0" corpse="2955"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1000" min="-400" max="-1000"/>
+		<attack name="genki dama" interval="3000" min="-1000" max="-2000"/>
+		<attack name="saiyajin blast" interval="4000" min="-200" max="-1500"/>
+		<attack name="Super Energy Wave" interval="5000" min="-200" max="-2000"/>
+		<attack name="energy" interval="3000" chance="40" length="8" spread="0" min="-300" max="-800">
+			<attribute key="areaEffect" value="purpleenergy"/>
+		</attack>
+		<attack name="energy" interval="3000" chance="7" range="3" radius="1" target="1" min="-400" max="-900">
+			<attribute key="shootEffect" value="energy"/>
+			<attribute key="areaEffect" value="energy"/>
+		</attack>
+	</attacks>
+	<defenses armor="0" defense="0">
+	</defenses>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="0"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="0"/>
+		<immunity outfit="1"/>
+		<immunity invisible="0"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Aaaaarghh!"/>
+		<voice sentence="It made me furious!!!"/>
+		<voice sentence="Your DAMN!!!"/>
+		<voice sentence="You bastard!!!"/>
+	</voices>
+		<loot>
+			<item id="2148" countmax="100" chance="5000"/> <!-- Cents -->
+			<item id="2148" countmax="100" chance="5000"/> <!-- Cents -->
+			<item id="2152" countmax="100" chance="2500"/> <!-- Dollars -->
+			<item id="2152" countmax="100" chance="2500"/> <!-- Dollars -->
+			<item id="2160" countmax="10" chance="750"/> <!-- god bars -->
+			<item id="1987" chance="25000">
+				<inside>
+					<item id="2670" countmax="10" chance="1500"/> <!-- HP Potion -->
+					<item id="2671" countmax="10" chance="1500"/> <!-- Ki Potion -->
+					<item id="2507" chance="500"/> <!-- saiyan legs -->
+					<item id="2651" chance="500"/> <!-- saiyan armor -->
+					<item id="2657" chance="500"/> <!-- waiscoat saiajin -->
+					<item id="7403" chance="500"/> <!-- saiyajin fist -->
+					<item id="9929" chance="500"/> <!-- saiyan boots -->
+				</inside>
+			</item>
+		</loot>
+</monster>

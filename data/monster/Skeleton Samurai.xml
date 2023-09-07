@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Skeleton Samurai" nameDescription="an Skeleton samurai" race="undead" experience="25000" speed="300" manacost="0">
+	<health now="90000" max="90000"/>
+	<look type="672" head="1" body="1" legs="1" feet="1" addons="0" corpse="2975"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1000" min="-1" max="-200"/>
+		<attack name="Brave Furie" interval="1500" min="-200" max="-800"/>
+		<attack name="Sword Rage" interval="2000" min="-300" max="-900"/>
+		<attack name="Sword Bash" interval="3000" min="-400" max="-1000"/>
+	</attacks>
+	<defenses armor="0" defense="0"/>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="0"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="0"/>
+		<immunity outfit="1"/>
+		<immunity invisible="0"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="AAAAAAAAAAAAAAAH!"/>
+		<voice sentence="BRAVE FURIE"/>
+		<voice sentence="SWORD RAGE"/>
+		<voice sentence="SWORD BASH	"/>
+	</voices>
+		<loot>
+			<item id="2148" countmax="100" chance="5000"/> <!-- Cents -->
+			<item id="2148" countmax="100" chance="5000"/> <!-- Cents -->
+			<item id="2152" countmax="100" chance="2500"/> <!-- Dollars -->
+			<item id="2152" countmax="100" chance="2500"/> <!-- Dollars -->
+			<item id="2670" countmax="10" chance="1500"/> <!-- HP Potion -->
+			<item id="2671" countmax="10" chance="1500"/> <!-- Ki Potion -->
+			<item id="1987" chance="250000"> <!-- bag -->
+				<inside>
+					<item id="2395" chance="500"/> <!-- carlin sword -->
+					<item id="2400" chance="500"/> <!-- magic sword -->
+					<item id="2403" chance="500"/> <!-- sword -->
+				</inside>
+			</item>
+		</loot>
+</monster>

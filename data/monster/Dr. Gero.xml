@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dr. Gero" nameDescription="an Dr. Gero" race="blood" experience="30000" speed="400" manacost="0">
+	<health now="130000" max="130000"/>
+	<look type="799" head="1" body="1" legs="1" feet="1" addons="0" corpse="2815"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1000" min="-100" max="-400"/>
+		<attack name="death ball" interval="1000" min="-100" max="-500"/>
+		<attack name="auto destruction" interval="2000" chance="50" min="-100" max="-700"/>
+	</attacks>
+	<defenses armor="0" defense="0">
+	</defenses>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="0"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="0"/>
+		<immunity outfit="1"/>
+		<immunity invisible="0"/>
+	</immunities>
+		<loot>
+			<item id="2148" countmax="100" chance="100000"/> <!-- Cents -->
+			<item id="2152" countmax="75" chance="50000"/> <!-- Dollars -->
+			<item id="2160" countmax="2" chance="500"/> <!-- Golds -->
+			<item id="1987" chance="25000"> <!-- Shinigami Bag -->
+				<inside>
+					<item id="2670" countmax="10" chance="25000"/> <!-- Hp Potion -->
+					<item id="2671" countmax="10" chance="25000"/> <!-- Reiatsu Potion -->
+					<item id="2672" countmax="3" chance="500"/> <!-- Senzu Leaf -->
+					<item id="2479" chance="1500"/> <!-- metal Helmet -->
+					<item id="7408" chance="500"/> <!-- metal red glove -->
+					<item id="7417" chance="500"/> <!-- metal glove -->
+					<item id="11209" countmax="10" chance="1500"/> <!-- metal spike -->
+				</inside>
+			</item>
+		</loot>
+</monster>

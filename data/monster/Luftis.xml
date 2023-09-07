@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Luftis" nameDescription="an Luftis" race="energy" experience="400000" speed="300" manacost="0">
+	<health now="300000" max="300000"/>
+	<look type="906" head="1" body="1" legs="1" feet="1" addons="0" corpse="2950"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1000" min="-100" max="-1500"/>
+		<attack name="Double Ball" interval="2000" min="-100" max="-500"/>
+		<attack name="Auto Destruction" interval="3000" min="-150" max="-600"/>
+		<attack name="Generic Ki Blast" interval="4000" min="-200" max="-700"/>
+		<attack name="Mega Bomb" chance="30" range="10" interval="5000" min="-250" max="-800"/>
+		<attack name="Deadly Bomb" chance="30" range="10" interval="6000" min="-300" max="-900"/>
+		<attack name="fire" interval="4000" chance="60" range="7" radius="7" target="1" min="-150" max="-250">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="firefield" interval="1000" chance="15" range="7" radius="1" target="1">
+			<attribute key="shootEffect" value="fire"/>
+		</attack>
+		<attack name="energy" interval="3000" chance="10" length="8" spread="0" min="-300" max="-460">
+			<attribute key="areaEffect" value="purpleenergy"/>
+		</attack>
+		<attack name="energy" interval="3000" chance="7" range="3" radius="1" target="1" min="-210" max="-300">
+			<attribute key="shootEffect" value="energy"/>
+			<attribute key="areaEffect" value="energy"/>
+		</attack>
+		<attack name="speed" interval="5000" chance="10" range="7" speedchange="-220" duration="5000">
+		</attack>
+	</attacks>
+	<defenses armor="0" defense="0">
+	</defenses>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="1"/>
+		<immunity fire="0"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="0"/>
+		<immunity outfit="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+		<loot>
+			<item id="2148" countmax="100" chance="100000"/> <!-- Cents -->
+			<item id="2148" countmax="100" chance="100000"/> <!-- Cents -->
+			<item id="2152" countmax="100" chance="25000"/> <!-- Dollars -->
+			<item id="2152" countmax="100" chance="25000"/> <!-- Dollars -->
+			<item id="2160" countmax="15" chance="500"/> <!-- Golds -->
+			<item id="2670" countmax="10" chance="2500"/> <!-- HP Potion -->
+			<item id="2671" countmax="10" chance="2500"/> <!-- Ki Potion -->
+			<item id="2479" chance="1000"/> <!-- metal helmet -->
+			<item id="2482" chance="1000"/> <!-- soldier helmet -->
+			<item id="2153" chance="1000"/> <!-- violet gem -->
+			<item id="2154" chance="1000"/> <!-- yellow gem -->
+			<item id="2155" chance="1000"/> <!-- green gem -->
+			<item id="2156" chance="1000"/> <!-- red gem -->
+			<item id="2158" chance="1000"/> <!-- blue gem -->
+			<item id="1995" chance="50000"><!-- electro backpack -->
+				<inside>
+					<item id="2145" countmax="30" chance="1000"/><!-- small diamond -->
+					<item id="2150" countmax="30" chance="1000"/><!-- small amethyst -->
+					<item id="2149" countmax="30" chance="1000"/><!-- small emerald -->
+					<item id="2147" countmax="30" chance="1000"/><!-- small ruby -->
+					<item id="2146" countmax="30" chance="1000"/><!-- small sapphire -->
+					<item id="2444" chance="800"/><!-- red ki -->
+					<item id="2445" chance="800"/><!-- energy ki -->
+					<item id="2448" chance="800"/><!-- studded ki -->
+					<item id="2434" chance="800"/><!-- green gun -->
+					<item id="2436" chance="800"/><!-- energy gun -->
+					<item id="2424" chance="800"/><!-- metralhadora -->
+					<item id="2423" chance="800"/><!-- clerical mace -->
+					<item id="2422" chance="800"/><!-- rifle -->
+					<item id="2439" chance="800"/><!-- blaster -->
+				</inside>
+			</item>
+		</loot>
+</monster>
