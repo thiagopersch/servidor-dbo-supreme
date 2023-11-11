@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Ancient Orc" nameDescription="an Ancient Orc" race="blood" experience="65000" speed="300" manacost="0">
+<monster name="Mutant Tree-Man" nameDescription="an Mutant Tree-Man" race="blood" experience="65000" speed="300" manacost="0">
 	<health now="150000" max="150000"/>
 	<look type="998" head="1" body="1" legs="1" feet="1" addons="0" corpse="2901"/>
 	<targetchange interval="5000" chance="8"/>
@@ -45,22 +45,36 @@
 		<voice sentence="Futchi maruk buta!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="50" chance="15000"/><!-- gold coin -->
-		<item id="2399" chance="4000" countmax="22"/><!-- throwing star -->
-		<item id="2667" countmax="2" chance="12500"/><!-- fish -->
-		<item id="2666" countmax="2" chance="9000"/><!-- meat -->
-		<item id="2428" chance="17650"/><!-- orcish axe -->
-		<item id="2200" chance="7500"/><!-- protection amulet -->
-		<item id="3965" chance="7000"/><!-- hunting spear -->
-		<item id="1987" chance="100000"><!-- bag -->
+		<item id="2148" countmax="50" chance="15000"/>
+		<!-- gold coin -->
+		<item id="2399" chance="4000" countmax="22"/>
+		<!-- throwing star -->
+		<item id="2667" countmax="2" chance="12500"/>
+		<!-- fish -->
+		<item id="2666" countmax="2" chance="9000"/>
+		<!-- meat -->
+		<item id="2428" chance="17650"/>
+		<!-- orcish axe -->
+		<item id="2200" chance="7500"/>
+		<!-- protection amulet -->
+		<item id="3965" chance="7000"/>
+		<!-- hunting spear -->
+		<item id="1987" chance="100000">			<!-- bag -->
 			<inside>
-				<item id="2377" chance="500"/><!-- enchanted getsuga sword -->
-				<item id="2434" chance="750"/><!-- green gun -->
-				<item id="2165" chance="900"/><!-- stealth ring -->
-				<item id="2670" chance="1000"/><!-- health potion -->
-				<item id="2671" chance="1000"/><!-- reiatsu potion -->
-				<item id="7395" chance="500"/><!-- orc trophy -->
-				<item id="2179" chance="500"/><!-- golden ring -->
+				<item id="2377" chance="500"/>
+				<!-- enchanted getsuga sword -->
+				<item id="2434" chance="750"/>
+				<!-- green gun -->
+				<item id="2165" chance="900"/>
+				<!-- stealth ring -->
+				<item id="2670" chance="1000"/>
+				<!-- health potion -->
+				<item id="2671" chance="1000"/>
+				<!-- reiatsu potion -->
+				<item id="7395" chance="500"/>
+				<!-- orc trophy -->
+				<item id="2179" chance="500"/>
+				<!-- golden ring -->
 			</inside>
 		</item>
 	</loot>

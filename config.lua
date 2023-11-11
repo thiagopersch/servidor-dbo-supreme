@@ -134,7 +134,7 @@ onBuy = 1000
 onSell = 1000
 changeOutfit = 1000
 
-mapName = "DBO.otbm"
+mapName = "main.otbm"
 mapAuthor = "TP"
 randomizeTiles = true
 storeTrash = true
@@ -244,7 +244,7 @@ cleanMapAtGlobalSave = true
 deSpawnRange = 2
 deSpawnRadius = 50
 
-maxPlayerSummons = 2
+maxPlayerSummons = 5
 teleportAllSummons = true
 teleportPlayerSummons = false
 

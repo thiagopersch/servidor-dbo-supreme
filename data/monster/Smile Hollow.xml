@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Smile Hollow" nameDescription="an Smile Hollow" race="blood" experience="95000" speed="350" manacost="0">
-	<health now="125000" max="125000"/>
+<monster name="Smile Hollow" nameDescription="an Smile Hollow" race="blood" experience="120000" speed="350" manacost="0">
+	<health now="145000" max="145000"/>
 	<look type="723" head="1" body="1" legs="1" feet="1" addons="0" corpse="5527"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
@@ -34,18 +34,26 @@
 		<immunity outfit="1"/>
 		<immunity invisible="0"/>
 	</immunities>
-		<loot>
-			<item id="2148" countmax="100" chance="100000"/> <!-- Cents -->
-			<item id="2148" countmax="100" chance="100000"/> <!-- Cents -->
-			<item id="2152" countmax="100" chance="25000"/> <!-- Dollars -->
-			<item id="2152" countmax="100" chance="25000"/> <!-- Dollars -->
-			<item id="1987" chance="25000"> <!-- shinigami backpack -->
-				<inside>
-					<item id="2160" countmax="10" chance="500"/> <!-- Golds -->
-					<item id="2462" chance="500"/> <!-- giant hollow mask -->
-					<item id="2458" chance="500"/> <!-- gilian mask -->
-					<item id="2460" chance="500"/> <!-- brass mask -->
-				</inside>
-			</item>
-		</loot>
+	<loot>
+		<item id="2148" countmax="100" chance="100000"/>
+		<!-- Cents -->
+		<item id="2148" countmax="100" chance="100000"/>
+		<!-- Cents -->
+		<item id="2152" countmax="100" chance="25000"/>
+		<!-- Dollars -->
+		<item id="2152" countmax="100" chance="25000"/>
+		<!-- Dollars -->
+		<item id="1987" chance="25000">			<!-- shinigami backpack -->
+			<inside>
+				<item id="2160" countmax="10" chance="500"/>
+				<!-- Golds -->
+				<item id="2462" chance="500"/>
+				<!-- giant hollow mask -->
+				<item id="2458" chance="500"/>
+				<!-- gilian mask -->
+				<item id="2460" chance="500"/>
+				<!-- brass mask -->
+			</inside>
+		</item>
+	</loot>
 </monster>
