@@ -134,7 +134,7 @@ onBuy = 1000
 onSell = 1000
 changeOutfit = 1000
 
-mapName = "main.otbm"
+mapName = "map.otbm"
 mapAuthor = "TP"
 randomizeTiles = true
 storeTrash = true
